@@ -1,0 +1,31 @@
+.stavka_prihoda {
+    width: 500px;
+    text-align: left;
+} 
+.stavka_prihoda h3 {
+    margin-bottom: 10px;
+    font-size: var(--main-fontsize);
+    color: var(--color-teal);
+}
+.underscored {
+    border-bottom: 1px solid var(--color-lgrey);
+    display: block;
+    width: 100%; /*mora da bi iznos stajao na kraju prvog reda*/
+}
+.ispisP {
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--main-fontsize);
+}
+.ispisP>div {
+    height: 50px;
+    padding: 10px;
+}
+.ispisP>div:nth-of-type(3) {
+    color: var(--color-teal);
+}
+.ispisP button {
+    padding: 5px;
+    background-color: var(--color-teal);
+    color: var(--color-white);
+}

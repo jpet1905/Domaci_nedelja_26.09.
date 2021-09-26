@@ -1,0 +1,29 @@
+:root {
+    --color-lwhite:rgb(255, 255, 255, 0.2);
+    --color-white:rgb(255, 255, 255);
+    --color-ltomato:rgb(255, 99, 71, 0.5);
+    --color-tomato:rgb(255, 99, 71);
+    --color-red:rgb(255, 0, 0);
+    --color-teal:rgb(0, 128, 128);
+    --color-lgrey:rgb(199, 193, 193);
+    --color-blue:rgb(71, 102, 126);
+    --color-dgrey:rgb(199, 193, 193, 0.3);
+    --color-lblack:rgb(0, 0, 0, 0.4);
+    --color-black:rgb(0, 0, 0);
+    --basic-time: .3s;
+    --main-fontsize: 1.2em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+}
+.treci {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}

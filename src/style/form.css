@@ -1,0 +1,62 @@
+#drugi {
+    padding: 20px 0;
+    background-color: var(--color-dgrey);
+}
+#drugi>div:first-child {
+    display: flex;
+    justify-content: center;
+}
+
+select, input, .submit {
+    height: 50px;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: var(--main-fontsize);
+}
+input:focus {
+    outline-style: none;
+    outline:2px solid var(--color-teal);
+    box-shadow: 4px 4px 3px 2px var(--color-lblack);
+    color: var(--color-teal);
+}
+#text {
+    width: 300px;
+    transition: width var(--basic-time) ease-out;
+}
+#text:focus {
+    width: 500px; 
+}
+input[type="number"], select {
+    width: 150px;
+}
+
+select {
+    background-color: var(--color-white);
+}
+option[value = "prihod"] {
+    background-color: var(--color-teal);
+}
+option[value = "rashod"] {
+    background-color: var(--color-tomato);
+}
+.submit {
+    border-color: var( --color-dgrey);
+    cursor: pointer;
+    transition: var(--basic-time);
+}
+.submit:hover {
+    border-color: var(--color-teal);
+    background-color: var(--color-lgrey);
+}
+.submit:active {
+    color: var(--color-white);
+    border-color: var(--color-teal);
+    background-color: var(--color-teal); 
+}
+#valid_msg {
+    width: 100%;
+    margin-top: 10px;
+    color: var(--color-red);
+    font-size: var(--main-fontsize);
+    text-align: center;
+}

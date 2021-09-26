@@ -1,0 +1,56 @@
+.container { 
+        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(to top, var(--color-lgrey), var(--color-blue)); 
+        font-size: var(--main-fontsize);
+        
+}
+.prvi {
+    width: 400px;
+    color: var(--color-white);
+}
+.prvi>p {
+    text-align: center;
+    text-shadow: 2px 2px 2px var(--color-black);
+}
+.prvi>p:nth-child(2) {
+        font-size: 3em;
+}
+.zeleni, .crveni {
+    height: 50px;
+}
+.zeleni, .crveni {
+    margin: 10px 0;
+    padding: 10px;
+    box-shadow: 4px 4px 3px 2px var(--color-lblack);
+}
+.zeleni {
+    background-color: var(--color-teal);
+    padding-bottom: 0px;
+}
+.zeleni>.drzi_sirinu {
+    margin-top: 5px;
+}
+.crveni {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-tomato);
+}
+.drzi_sirinu {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.drzi_sirinu>div:first-child {
+    color: var(--color-black);
+}
+.procentualni {
+    padding: 5px;
+    background-color: var(--color-lwhite);
+    font-size: 0.75em;
+    color: var(--color-white);
+    text-align: center;
+}
